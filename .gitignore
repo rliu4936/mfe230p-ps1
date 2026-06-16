@@ -3,6 +3,7 @@
 *
 
 !.gitignore
+!README.md
 !ps1_task1.ipynb
 
 # (Everything else stays ignored: *.parquet data, *.pdf, *_backup.ipynb, test.py,
