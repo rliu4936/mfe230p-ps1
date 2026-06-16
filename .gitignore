@@ -1,0 +1,9 @@
+# Allowlist: ignore everything by default, then permit only the files meant to be public.
+# This guarantees course-provided data/PDFs are never committed, even with `git add -A`.
+*
+
+!.gitignore
+!ps1_task1.ipynb
+
+# (Everything else stays ignored: *.parquet data, *.pdf, *_backup.ipynb, test.py,
+#  task1_predictions.csv, .ipynb_checkpoints/, __pycache__/, etc.)
